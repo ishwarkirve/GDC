@@ -4,7 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="task.css">
+</head>
+<body>
+    <form id="myForm" action="/server">
+        <h3>Resistration Form</h3>
+        <div class="containt">
+            <div class="name">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter full name">
+            </div>
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="Enter email">
+            </div>
+            <div class="pass">
+                <label for="pass">Password</label>
+                <input type="password" name="pass" id="pass" placeholder="Enter password">
+            </div>
+            <div class="date">
+                <label for="date">Date Of Birth</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <div class="tac">
+                <input class="lab" type="checkbox" name="tac" id="tac">
+                <label class="lab" for="tac">Accept terms & conditions</label>
+            </div>
+            <button type="submit">Submit</button>
+        </div>
+        <div id="dataDisplay">
+            <h3>Entries</h3>
+        </div>
+    </form>
+    <script src="task.js"></script>
+</body>
+</html>
+    </style>
 </head>
 <body>
     <form id="myForm" action="/server">
